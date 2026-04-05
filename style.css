@@ -1,0 +1,12 @@
+p {
+  color: red;
+  background-color: blueviolet;
+}
+.greenp {
+  color: green;
+  background-color: #fff;
+  border: 4px solid yellowgreen;
+}
+h1 {
+  color: magenta;
+}
