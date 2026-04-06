@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ทรายแมวพรีเมียม</title>
+    <link href="https://fonts.googleapis.com/..." rel="stylesheet" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo" onclick="showPage('home')">ทราย<span>แมว</span></div>
+      <ul class="nav-links">
+        <li>
+          <a
+            href="#"
+            class="active"
+            onclick="
+              showPage('home');
+              return false;
+            "
+            >หน้าแรก</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            onclick="
+              showPage('products');
+              return false;
+            "
+            >สินค้า</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            onclick="
+              showPage('about');
+              return false;
+            "
+            >เกี่ยวกับเรา</a
+          >
+        </li>
+      </ul>
+      <button
+        class="nav-cart"
+        onclick="
+          showPage('products');
+          return false;
+        "
+      >
+        สินค้าของเรา
+      </button>
+    </nav>
+
+    <div id="page-home" class="page active">
+      <div class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-content fade-up">
+          <div class="hero-tag">Premium Cat Litter</div>
+          <h1 class="hero-title">
+            ทรายแมว<br />
+            <span class="line2">ระดับพรีเมียมสุดๆ</span>
+          </h1>
+          <p class="hero-desc">
+            สะอาด ดูดซับดี กลิ่นหอม — ออกแบบมาเพื่อแมวและเจ้าของที่ใส่ใจคุณภาพ
+            ทุกเม็ดทรายคือความตั้งใจที่เราทุ่มเทให้
+          </p>
+          <div class="hero-cta">
+            <button class="btn-primary" onclick="showPage('products')">
+              ดูสินค้าทั้งหมด
+            </button>
+            <span class="btn-secondary" onclick="showPage('about')"
+              >เกี่ยวกับเรา →</span
+            >
+          </div>
+        </div>
+        <div class="hero-visual">🐱</div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">10K+</div>
+            <div class="stat-label">น้องแมว</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">98%</div>
+            <div class="stat-label">ความพึงพอใจ</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">12+</div>
+            <div class="stat-label">สินค้า</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-strip">
+        <div class="features-track">
+          <div class="feature-item">
+            <span>✓</span> ส่งฟรี ไม่มีขั้นต่ำ (กทม.และปริมณฑล)
+          </div>
+          <div class="feature-item">
+            <span>✓</span> ส่งไวถึงบ้าน ไม่ต้องแบกของหนักเอง
+          </div>
+          <div class="feature-item">
+            <span>✓</span> ไม่ต้องกลัวลืมซื้อ มีระบบส่งให้ทุกเดือน
+          </div>
+          <div class="feature-item">
+            <span>✓</span> ดูดกลิ่นอยู่หมัด นานสูงสุด 72 ชั่วโมง
+          </div>
+          <div class="feature-item">
+            <span>✓</span> ปลอดภัย ไม่มีสารเคมีอันตราย
+          </div>
+          <div class="feature-item">
+            <span>✓</span> คำนวณปริมาณให้พอดีกับจำนวนแมวของคุณ
+          </div>
+          <div class="feature-item"><span>✓</span> แจ้งเตือนก่อนทรายหมด</div>
+          <div class="feature-item">
+            <span>✓</span> ยิ่งซื้อ ยิ่งได้แต้ม เอาไปแลกของได้จริง
+          </div>
+          <div class="feature-item"><span>✓</span> มีราคาพิเศษสำหรับสมาชิก</div>
+          <div class="feature-item">
+            <span>✓</span> มีทั้งแบบซื้อปลีก และราคายกลังสำหรับคนเลี้ยงหลายตัว
+          </div>
+          <div class="feature-item">
+            <span>✓</span> เหมาะกับคนเลี้ยงแมวในคอนโด / บ้านพื้นที่จำกัด
+          </div>
+          <div class="feature-item"><span>✓</span> บริการครบ จบในที่เดียว</div>
+
+          <div class="feature-item">
+            <span>✓</span> ส่งฟรี ไม่มีขั้นต่ำ (กทม.และปริมณฑล)
+          </div>
+          <div class="feature-item">
+            <span>✓</span> ส่งไวถึงบ้าน ไม่ต้องแบกของหนักเอง
+          </div>
+          <div class="feature-item">
+            <span>✓</span> ไม่ต้องกลัวลืมซื้อ มีระบบส่งให้ทุกเดือน
+          </div>
+          <div class="feature-item">
+            <span>✓</span> ดูดกลิ่นอยู่หมัด นานสูงสุด 72 ชั่วโมง
+          </div>
+          <div class="feature-item">
+            <span>✓</span> ปลอดภัย ไม่มีสารเคมีอันตราย
+          </div>
+          <div class="feature-item">
+            <span>✓</span> คำนวณปริมาณให้พอดีกับจำนวนแมวของคุณ
+          </div>
+          <div class="feature-item"><span>✓</span> แจ้งเตือนก่อนทรายหมด</div>
+          <div class="feature-item">
+            <span>✓</span> ยิ่งซื้อ ยิ่งได้แต้ม เอาไปแลกของได้จริง
+          </div>
+          <div class="feature-item"><span>✓</span> มีราคาพิเศษสำหรับสมาชิก</div>
+          <div class="feature-item">
+            <span>✓</span> มีทั้งแบบซื้อปลีก และราคายกลังสำหรับคนเลี้ยงหลายตัว
+          </div>
+          <div class="feature-item">
+            <span>✓</span> เหมาะกับคนเลี้ยงแมวในคอนโด / บ้านพื้นที่จำกัด
+          </div>
+          <div class="feature-item"><span>✓</span> บริการครบ จบในที่เดียว</div>
+        </div>
+      </div>
+
+      <section>
+        <div class="section-label">BESTSELLERS</div>
+        <h2 class="section-title">สินค้าขายดี ประจำเดือนมีนาคม</h2>
+        <p class="section-sub">เลือกสรรมาเป็นพิเศษจากลูกค้าที่ไว้วางใจเรา</p>
+        <div class="bestsellers-grid">
+          <div class="product-card" onclick="showPage('products')">
+            <img
+              class="product-img"
+              src="images/crystal-pro.jpg"
+              alt="Crystal Pro"
+            />
+            <div class="product-cat">Clumping</div>
+            <div class="product-name">CRYSTAL PRO</div>
+            <div class="product-footer">
+              <div class="product-price">299 <small>฿</small></div>
+              <button
+                class="add-btn"
+                onclick="
+                  event.stopPropagation();
+                  addToCart('Crystal Pro');
+                "
+              >
+                +
+              </button>
+            </div>
+          </div>
+          <div class="product-card" onclick="showPage('products')">
+            <div class="product-badge">HOT</div>
+            <img
+              class="product-img"
+              src="/images/tofu-soft.png"
+              alt="Tofu Soft"
+            />
+            <div class="product-cat">Natural</div>
+            <div class="product-name">TOFU SOFT</div>
+            <div class="product-footer">
+              <div class="product-price">349 <small>฿</small></div>
+              <button
+                class="add-btn"
+                onclick="
+                  event.stopPropagation();
+                  addToCart('Tofu Soft');
+                "
+              >
+                +
+              </button>
+            </div>
+          </div>
+          <div class="product-card" onclick="showPage('products')">
+            <img
+              class="product-img"
+              src="images/dark-ultra.jpg"
+              alt="Dark Ultra"
+            />
+            <div class="product-cat">Activated Carbon</div>
+            <div class="product-name">DARK ULTRA</div>
+            <div class="product-footer">
+              <div class="product-price">419 <small>฿</small></div>
+              <button
+                class="add-btn"
+                onclick="
+                  event.stopPropagation();
+                  addToCart('Dark Ultra');
+                "
+              >
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="page-products" class="page">
+      <div class="products-header">
+        <div class="section-label">CATALOG</div>
+        <h2 class="section-title">สินค้าทั้งหมด</h2>
+        <div class="filter-bar">
+          <button
+            class="filter-btn active"
+            onclick="filterProducts(this, 'all')"
+          >
+            ทั้งหมด
+          </button>
+          <button class="filter-btn" onclick="filterProducts(this, 'clumping')">
+            Clumping
+          </button>
+          <button class="filter-btn" onclick="filterProducts(this, 'natural')">
+            Natural
+          </button>
+          <button class="filter-btn" onclick="filterProducts(this, 'carbon')">
+            Carbon
+          </button>
+        </div>
+      </div>
+
+      <div class="products-grid" id="products-grid">
+        <div class="product-card" data-cat="clumping">
+          <div class="product-badge">BEST</div>
+          <img
+            class="product-img"
+            src="images/crystal-pro.jpg"
+            alt="CRYSTAL PRO"
+          />
+          <div class="product-cat">Clumping</div>
+          <div class="product-name">CRYSTAL PRO</div>
+          <div class="product-desc">
+            ทรายเม็ดแน่น จับก้อนดี ดูดซับน้ำเร็ว กลิ่นสดชื่น 5 กก.
+          </div>
+          <div class="product-footer">
+            <div class="product-price">299 <small>฿/ถุง</small></div>
+            <button class="add-btn" onclick="addToCart('Crystal Pro')">
+              +
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="clumping">
+          <img
+            class="product-img"
+            src="images/crystal-max.jpg"
+            alt="CRYSTAL MAX"
+          />
+          <div class="product-cat">Clumping</div>
+          <div class="product-name">CRYSTAL MAX</div>
+          <div class="product-desc">
+            สูตรพิเศษ ดูดซับ 3 เท่า จากซิลิกาบริสุทธิ์ 10 กก.
+          </div>
+          <div class="product-footer">
+            <div class="product-price">549 <small>฿/ถุง</small></div>
+            <button class="add-btn" onclick="addToCart('Crystal Max')">
+              +
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="natural">
+          <div class="product-badge">HOT</div>
+          <img class="product-img" src="images/tofu-soft.png" alt="TOFU SOFT" />
+          <div class="product-cat">Natural</div>
+          <div class="product-name">TOFU SOFT</div>
+          <div class="product-desc">
+            ทำจากเต้าหู้ 100% ย่อยสลายได้ ปลอดภัยต่อแมวและสิ่งแวดล้อม
+          </div>
+          <div class="product-footer">
+            <div class="product-price">349 <small>฿/ถุง</small></div>
+            <button class="add-btn" onclick="addToCart('Tofu Soft')">+</button>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="natural">
+          <img
+            class="product-img"
+            src="images/wheat-pure.png"
+            alt="WHEAT PURE"
+          />
+          <div class="product-cat">Natural</div>
+          <div class="product-name">WHEAT PURE</div>
+          <div class="product-desc">
+            ทรายข้าวสาลีธรรมชาติ กลิ่นอ่อน เหมาะกับแมวขี้แพ้
+          </div>
+          <div class="product-footer">
+            <div class="product-price">320 <small>฿/ถุง</small></div>
+            <button class="add-btn" onclick="addToCart('Wheat Pure')">+</button>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="carbon">
+          <img
+            class="product-img"
+            src="images/dark-ultra.jpg"
+            alt="DARK ULTRA"
+          />
+          <div class="product-cat">Activated Carbon</div>
+          <div class="product-name">DARK ULTRA</div>
+          <div class="product-desc">
+            ชาร์โคลแอคทีฟ ดูดกลิ่นแบคทีเรียได้ 99% ไม่มีกลิ่นเลย
+          </div>
+          <div class="product-footer">
+            <div class="product-price">419 <small>฿/ถุง</small></div>
+            <button class="add-btn" onclick="addToCart('Dark Ultra')">+</button>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="carbon">
+          <div class="product-badge">NEW</div>
+          <img
+            class="product-img"
+            src="images/dark-elite.png"
+            alt="DARK ELITE"
+          />
+          <div class="product-cat">Activated Carbon</div>
+          <div class="product-name">DARK ELITE</div>
+          <div class="product-desc">
+            สูตรใหม่ล่าสุด ผสม Zeolite และ Carbon ดับกลิ่นนานถึง 7 วัน
+          </div>
+          <div class="product-footer">
+            <div class="product-price">499 <small>฿/ถุง</small></div>
+            <button class="add-btn" onclick="addToCart('Dark Elite')">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="page-about" class="page">
+      <div class="about-hero">
+        <div>
+          <div class="section-label">OUR STORY</div>
+          <h2 class="about-big-text">
+            เราทำ<br />
+            <span class="highlight">ทรายแมว</span><br />
+            ที่ดีที่สุด<br />
+            ในไทย
+          </h2>
+        </div>
+        <div class="about-body">
+          <p>
+            Koh brand เกิดขึ้นจากความรักที่มีต่อแมว
+            เราเริ่มต้นจากการมองหาทรายแมวที่ดีพอสำหรับแมวของเราเอง
+            แต่ไม่พบสิ่งที่ต้องการในตลาด
+          </p>
+          <p>
+            ปี 0001 เราจึงตัดสินใจพัฒนาสูตรทรายแมวของตัวเอง
+            ร่วมกับนักวิทยาศาสตร์ด้านวัสดุศาสตร์และสัตวแพทย์ผู้เชี่ยวชาญ
+            เพื่อให้ได้ผลิตภัณฑ์ที่ดีที่สุด
+          </p>
+          <p>
+            วันนี้เราส่งมอบความสุขให้กับแมวและเจ้าของกว่า 5,000,000
+            ครอบครัวทั่วประเทศ และเราจะไม่หยุดพัฒนา
+          </p>
+        </div>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">🔬</div>
+          <div class="value-title">วิจัยและพัฒนา</div>
+          <div class="value-desc">
+            ทุกผลิตภัณฑ์ผ่านการทดสอบในห้องแล็บและทดลองจริงกับแมวมากกว่า 100 ตัว
+            ก่อนวางขาย
+          </div>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">🌍</div>
+          <div class="value-title">รักโลก</div>
+          <div class="value-desc">
+            บรรจุภัณฑ์รีไซเคิลได้ 100% และวัตถุดิบธรรมชาติจากแหล่งที่ยั่งยืน
+          </div>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">💛</div>
+          <div class="value-title">ใส่ใจทุกรายละเอียด</div>
+          <div class="value-desc">
+            ตั้งแต่เนื้อสัมผัสของทราย ไปจนถึงดีไซน์ถุงที่หยิบใช้ง่าย
+            เราคิดเพื่อคุณและแมวของคุณ
+          </div>
+        </div>
+      </div>
+
+      <div class="team-section">
+        <div class="section-label">OUR TEAM</div>
+        <h2 class="section-title">ทีมงานของเรา</h2>
+        <div class="team-grid">
+          <div class="team-card">
+            <img
+              class="product-img"
+              src="images/pro-ceo.jpg"
+              alt="CEO & Founder"
+            />
+            <div class="team-name">ปิยวัฒน์ คำตน (โคะ)</div>
+            <div class="team-role">CEO & Founder</div>
+          </div>
+          <div class="team-card">
+            <img
+              class="product-img"
+              src="images/Head of R&D.jpg"
+              alt="Head of R&D"
+            />
+            <div class="team-name">ธนกร สิริพงษ์</div>
+            <div class="team-role">Head of R&D</div>
+          </div>
+          <div class="team-card">
+            <img
+              class="product-img"
+              src="images/Brand Design.jpg"
+              alt="Brand Design"
+            />
+            <div class="team-name">มินตรา ปัญญา</div>
+            <div class="team-role">Brand Design</div>
+          </div>
+          <div class="team-card">
+            <img
+              class="product-img"
+              src="images/Vet Consultant.jpg"
+              alt="Vet Consultant"
+            />
+            <div class="team-name">น.สพ. วิชัย รักษ์</div>
+            <div class="team-role">Vet Consultant</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-logo">Koh brand © 1998</div>
+      <div class="footer-copy">ทรายแมวพรีเมียม — Made with 🖤 in Thailand</div>
+    </footer>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

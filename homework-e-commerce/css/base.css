@@ -1,0 +1,67 @@
+:root {
+  --bg: #0a0a0a;
+  --surface: #111111;
+  --card: #161616;
+  --border: #2a2a2a;
+  --accent: #e8c547;
+  --accent2: #ff6b35;
+  --text: #f0f0f0;
+  --muted: #888;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-up {
+  animation: fadeUp 0.6s ease forwards;
+}
+.fade-up:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.fade-up:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--accent);
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 1px;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.3s;
+  z-index: 999;
+}
+.toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
